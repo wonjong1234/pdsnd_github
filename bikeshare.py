@@ -33,6 +33,7 @@ def get_filters():
             else:
                 print('Invalid input. Please enter a valid option.')
 
+    # Modify the prompt or add more information to improve user guidance
     city = get_valid_input('Enter the name of the city (Chicago, New York City, Washington): ', CITY_DATA.keys())
     month = get_valid_input('Enter the month to filter by (all, January, February, March, April, May, June): ', ['all', 'january', 'february', 'march', 'april', 'may', 'june'])
     day = get_valid_input('Enter the day of the week to filter by (all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday): ', ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])
@@ -95,6 +96,8 @@ def time_stats(df):
 
 # ... (다른 함수들도 위와 같은 방식으로 독스트링 추가)
 
+# ... (이전 내용들은 그대로 유지)
+
 def main():
     """
     Main function to call other functions and execute the program
@@ -109,7 +112,8 @@ def main():
         display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes to continue: ')
-        if restart.lower() not in ['yes', 'y'] :
+        if restart.lower() not in ['yes', 'y']:
+            print('Goodbye!')
             break
 
 if __name__ == "__main__":
