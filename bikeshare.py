@@ -33,6 +33,7 @@ def get_filters():
             else:
                 print('Invalid input. Please enter a valid option.')
 
+    # Modify the prompt or add more information to improve user guidance
     city = get_valid_input('Enter the name of the city (Chicago, New York City, Washington): ', CITY_DATA.keys())
     month = get_valid_input('Enter the month to filter by (all, January, February, March, April, May, June): ', ['all', 'january', 'february', 'march', 'april', 'may', 'june'])
     day = get_valid_input('Enter the day of the week to filter by (all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday): ', ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'])
