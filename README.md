@@ -15,6 +15,7 @@ You can receive insights on peak times, top stations, trip durations, and user p
 - washington.csv
 
 ### Credits
-This project was inspired by the Udacity Programming for Data Science with Python Nanodegree Program.
+This project was inspired by the Udacity Programming for Data Science with Python Nanodegree Program. The data was provided by Motivate, a bike share system provider in the United States.
+This project was developed collaboratively using Google Colaboratory
 
 
