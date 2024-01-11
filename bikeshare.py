@@ -95,6 +95,8 @@ def time_stats(df):
 
 # ... (다른 함수들도 위와 같은 방식으로 독스트링 추가)
 
+# ... (이전 내용들은 그대로 유지)
+
 def main():
     """
     Main function to call other functions and execute the program
@@ -109,7 +111,8 @@ def main():
         display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes to continue: ')
-        if restart.lower() not in ['yes', 'y'] :
+        if restart.lower() not in ['yes', 'y']:
+            print('Goodbye!')
             break
 
 if __name__ == "__main__":
